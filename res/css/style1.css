@@ -1,0 +1,96 @@
+html{
+	height: 100%;
+}
+
+body{
+		background : url(../images/img1.jpg);
+	}
+	.header {
+	    background-color: #f1f1f1;
+	    padding: 20px;
+	    text-align: center;
+	}
+	ul
+	{
+		text-align: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		/*overflow: hidden;*/
+		background-color: orange;
+	}
+	li
+	{
+		float: none;
+		display: inline-block;
+	}	
+	li a{
+		font-size: 130%;
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+		background-color: #111;
+	}
+	
+	.side{
+		width: 15%;
+	}
+	.wrap{
+		position: relative;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.content{
+		background: #ffffff;
+		padding: 5px;	
+		height: 100%;	
+		overflow: hidden;
+		width: 100%;
+	}
+		.footer {
+		color: white;
+	    background-color: #156431;
+	    padding: 5px;
+	    text-align: center;
+	}
+	form{
+		padding: 0; 
+		margin: 0;
+	}
+	.form_setting{
+		margin: 15px 0 0 0;
+	}
+	.form_settings p {
+    	/*padding: 0 0 4px 0;*/
+    	padding-left: 55px;
+	}
+	.form_settings span {
+    float: left;
+    width: 200px;
+    text-align: left;
+}
+	.searchForm{
+		width: 50%;
+		float: center;
+	}
+	h1 span{
+		color: red;
+	}
+	h2 span{
+		color: red;
+		font-size: 160%;
+	}
+ 	.center{ 
+	 	display: block;
+	  	text-align: center;
+	 	margin: 0 auto;
+		float:right;
+	}
+	p{
+		line-height: 1.7em;
+		display: block;
+	}
