@@ -1,7 +1,4 @@
 <?php
-
-
-
 /*
 
 $con= new mysqli('localhost','root','')or die("Could not connect to mysql".mysqli_error($con));
@@ -13,7 +10,7 @@ if (mysqli_connect_errno()) {
   exit();
 }
 
-
+//from dbchanges
 
 */
 
